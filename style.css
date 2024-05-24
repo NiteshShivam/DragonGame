@@ -33,6 +33,17 @@ body{
     bottom: 0;
     left: 44vw;
 }
+#scoreCont{
+    color :aqua;
+    font-weight: bold;
+    right: 45px;
+    position: absolute;
+    top: 31px;
+    border: 2px solid black;
+    padding: auto;
+    width: 112px;
+    font-family: sans-serif;
+}
 .animateDino{
     animation: dino 0.6s;
 }
@@ -40,7 +51,11 @@ body{
     animation: obstacleAni 5s linear infinite;
 }
 .gameOver{
-    visibility: hidden;
+    
+    position: relative;
+    top: 63px;
+    text-align: center;
+    font-family: sans-serif;
 }
 @keyframes dino {
     0%{
